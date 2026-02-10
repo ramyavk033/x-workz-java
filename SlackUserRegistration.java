@@ -1,13 +1,13 @@
-class NetflixUserRegistration {
+class SlackUserRegistration {
 
-    static String email = "user@netflix.com";
-    static int dataCenter = 9;
+    static String email = "user@slack.com";
+    static int dataCenter = 19;
 
     public static void main(String[] args) {
-        registerNetflixUser("net_user","Nt@12345","Email","nf444token","nf_user_001");
+        registerSlackUser("sl_user","Sl@12345","Workspace","sl444token","sl_user_001");
     }
 
-    static void registerNetflixUser(String username,String password,String authMethod,String token,String userId) {
+    static void registerSlackUser(String username,String password,String authMethod,String token,String userId) {
         System.out.println("Email: " + email);
         System.out.println("Data Center: " + dataCenter);
         System.out.println("Username: " + username);

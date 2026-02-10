@@ -1,13 +1,13 @@
-class NetflixUserRegistration {
+class RedditUserRegistration {
 
-    static String email = "user@netflix.com";
-    static int dataCenter = 9;
+    static String email = "user@reddit.com";
+    static int dataCenter = 16;
 
     public static void main(String[] args) {
-        registerNetflixUser("net_user","Nt@12345","Email","nf444token","nf_user_001");
+        registerRedditUser("rd_user","Rd@12345","Email","rd111token","rd_user_001");
     }
 
-    static void registerNetflixUser(String username,String password,String authMethod,String token,String userId) {
+    static void registerRedditUser(String username,String password,String authMethod,String token,String userId) {
         System.out.println("Email: " + email);
         System.out.println("Data Center: " + dataCenter);
         System.out.println("Username: " + username);

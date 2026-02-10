@@ -1,13 +1,13 @@
-class NetflixUserRegistration {
+class DiscordUserRegistration {
 
-    static String email = "user@netflix.com";
-    static int dataCenter = 9;
+    static String email = "user@discord.com";
+    static int dataCenter = 15;
 
     public static void main(String[] args) {
-        registerNetflixUser("net_user","Nt@12345","Email","nf444token","nf_user_001");
+        registerDiscordUser("dc_user","Dc@12345","BotToken","dc000token","dc_user_001");
     }
 
-    static void registerNetflixUser(String username,String password,String authMethod,String token,String userId) {
+    static void registerDiscordUser(String username,String password,String authMethod,String token,String userId) {
         System.out.println("Email: " + email);
         System.out.println("Data Center: " + dataCenter);
         System.out.println("Username: " + username);
