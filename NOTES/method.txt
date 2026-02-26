@@ -1,0 +1,2 @@
+METHOD : group of java statements 
+			which is used to perform operationd on referencesS
