@@ -1,0 +1,3 @@
+class Shi23rt {
+
+	}
